@@ -1,0 +1,33 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.question-block {
+    border-bottom: 1px solid black;
+    padding-top: 1rem;
+}
+.question-wrapper, .answer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.answers-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.answer-field, .question-field {
+    width: 100%;
+    padding: 0.5rem;
+} 
+.btns-wrapper {
+    display: flex;
+}
+
+input[type="radio"] {
+	width:18px;
+    height:18px;
+}

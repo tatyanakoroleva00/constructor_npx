@@ -1,0 +1,12 @@
+.invisible {
+    display: none;
+}
+.block {
+    margin-bottom: 1rem;
+}
+select {
+    padding: 0.5rem;
+}
+.input-error input {
+    background-color: rgba(255, 0, 0, 0.411);
+}

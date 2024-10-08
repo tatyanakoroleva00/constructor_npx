@@ -1,0 +1,10 @@
+.external-source-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.external-source-form input, .external-source-form textarea {
+    padding: 0.5rem 1rem;
+}

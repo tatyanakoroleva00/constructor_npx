@@ -1,0 +1,46 @@
+.buttons-row {
+    display: flex;
+    justify-content: space-between;
+}
+.courses-btn {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin-right: 1rem;
+}
+.courses-btn:hover {
+    background-color: rgba(146, 146, 250, 0.438);
+}
+.active-btn {
+    background-color: rgba(146, 146, 250, 0.438);
+    opacity: 0.8;
+    margin-right: 1rem;
+}
+.add-button {
+    color: white;
+    border: 1px solid  darkblue;
+    background-color: darkblue;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+.delete-button {
+    color: white;
+    border: 1px solid  rgb(224, 35, 76);
+    background-color: rgb(224, 35, 76);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.finish-button {
+    color: white;
+    border: 1px solid rgb(61, 150, 150);
+    background-color: rgb(61, 150, 150);
+}
+.add-button, .delete-button, .finish-button {
+    opacity: 0.9;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.add-button:hover, .delete-button:hover, .finish-button:hover {
+    opacity: 1;
+}
